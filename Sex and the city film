@@ -1,0 +1,150 @@
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    </div>
+  </li>
+</ul>
+
+<h1 style="color: blue">"Sara Jessica Parker Reuniting Sex In The City 2018!"</h1>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  
+
+  <a href="#"><img class="mySlides w3-animate-fading" src="http://www.gannett-cdn.com/-mm-/179228ae323d797ffb96fc8cf1f0ffe4f4753fca/c=0-10-2235-2990&r=537&c=0-0-534-712/local/-/media/2015/03/25/USATODAY/USATODAY/635628757779437806-EPA-FILE-USA-PARKER-BIRTHDAY.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="http://nymag.com/daily/intel/17_overagedsexandthecity_lg.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/03/15/sarahjessicaparker.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="https://67.media.tumblr.com/8a532717a06d939e5bf8c1346abf71bd/tumblr_ngrqo8fAWA1sems5fo1_500.jpg" style="width:100%"></a>
+  
+  <p><h3 style="color: white;">"Sex In the City film is coming Back on the Screen!"</h3></p>
+</div>
+
+<p style="color: white;">According to Hollywood star Sara Jessica Parker better known as Carrie Bradshaw from HBO series <i>'Sex and The City'</i> interview with CBS' Sunday Morning leaving her fans stan about reunited with her original cast memebers. Sara also mention in her interview "it not on the table, but someone is holding it nearby". A interesting fact about Sara is her acting skills are tremendous and she really know how to succeed in her business without trying hard. There's no telling what else this Hollywood superstar might have in mind towards her success, she a very good book reader and like to write her own Journals. Her kids are very infatuated about her beautiful singing voice that she carried on as a child growing up in Nelsonville, Ohio.</p>
+
+<iframe width="560" height="315" align="center"  src="https://www.youtube.com/embed/C1pyNBvObao" frameborder="0" allowfullscreen></iframe>
+
+<p style="color: white;"> Check out Sara new exclusive HBO series called <i>'Divorce'</i> directed by Sharon Horgan. The show will premier on October 9, 2016. We seen Sarah making big transition throughout here career and also she have a passion for fashion. Early 90's Sara signed a 38 million dollar contract with Gap. Her best kept secret is to maintain her beauty and stay being a single healthier actress where its plenty more of where she comes from. As you Watch this amazing interview video Sara would like to navigate you on her new success and talk more about her fashion line coming soon. Watch this video and good luck!  </p>
+<div class="container-fluid">
+ <div class="col-xs-1">
+      <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button></div>
+</div>
+<p>
+  <form action="/submit-cat-photo">
+  <input type="text" placeholder="Comments" required>
+  </form>
+</div>
+<p><a href="http://www.w3schools.com/html/">More details about 'Divorce' just follow the link below.</a></p></p>
+</body>
+</html>
+
+
+$blue: #a3d5d3;
+
+body {
+  background-color: Black;
+}
+
+body {
+    background-color: Black;
+}
+
+h1 {
+    color: Black;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+document.getElementsByTagName("h1")[0].style.fontSize = "80px";
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 9000);
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
